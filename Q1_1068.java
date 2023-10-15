@@ -14,7 +14,7 @@ public class Q1_1068 {
 		long n = sc.nextLong();
 		
 		System.out.print(n+" ");
-		if(n>0 && n<=Math.pow(10, 6)) {
+		if( n>0 ) {
 			while(n!=1) {
 				if(n%2==0) {
 					n/=2;
